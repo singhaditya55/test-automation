@@ -3,8 +3,8 @@ from pages.base_page import BasePage
 
 class LoginPage(BasePage):
     LOGIN_URL = "https://magento.softwaretestingboard.com/customer/account/login/"
-    EMAIL = (By.ID, "singhaditya5298@gmail.com")
-    PASSWORD = (By.ID, "Aditya@987")
+    EMAIL = (By.ID, "singhaditya@gmail.com")
+    PASSWORD = (By.ID, "password")
     LOGIN_BUTTON = (By.ID, "send2")
     DASHBOARD = (By.CLASS_NAME, "greet")
 

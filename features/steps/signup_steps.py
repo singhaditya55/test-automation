@@ -19,7 +19,7 @@ def step_open_signup(context):
 
 @when("I enter valid details and submit the form")
 def step_enter_signup_details(context):
-    context.signup_page.enter_signup_details("Aditya", "Singh", "singhaditya5298@gmail.com", "Aditya@987")
+    context.signup_page.enter_signup_details("Aditya", "Singh", "singhaditya@gmail.com", "password")
     context.signup_page.submit_form()
 
 @then("I should see a success message")
@@ -32,7 +32,7 @@ def step_open_login(context):
 
 @when("I enter valid credentials")
 def step_enter_login_details(context):
-    context.login_page.login("singhaditya5298@gmail.com", "Aditya@987")
+    context.login_page.login("singhaditya@gmail.com", "password")
 
 @then("I should be redirected to the dashboard")
 def step_verify_dashboard(context):

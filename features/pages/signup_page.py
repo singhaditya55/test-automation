@@ -5,9 +5,9 @@ class SignupPage(BasePage):
     SIGNUP_URL = "https://magento.softwaretestingboard.com/customer/account/create/"
     FIRST_NAME = (By.ID, "Aditya")
     LAST_NAME = (By.ID, "Singh")
-    EMAIL = (By.ID, "singhaditya5298@gmail.com")
-    PASSWORD = (By.ID, "Aditya@987")
-    CONFIRM_PASSWORD = (By.ID, "Aditya@987")
+    EMAIL = (By.ID, "singhaditya@gmail.com")
+    PASSWORD = (By.ID, "password")
+    CONFIRM_PASSWORD = (By.ID, "password")
     SIGNUP_BUTTON = (By.XPATH, "//button[@title='Create an Account']")
     SUCCESS_MESSAGE = (By.CLASS_NAME, "message-success")
 
