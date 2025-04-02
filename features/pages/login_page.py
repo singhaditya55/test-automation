@@ -8,7 +8,7 @@ class LoginPage(BasePage):
     EMAIL = (By.ID, "email")
     PASSWORD = (By.ID, "pass")
     LOGIN_BUTTON = (By.ID, "send2")
-    DASHBOARD = (By.CLASS_NAME, "greet")  # Ensure this exists on the dashboard page
+    DASHBOARD = (By.CLASS_NAME, "greet")
 
     def navigate(self):
         """Navigate to the Login Page"""
